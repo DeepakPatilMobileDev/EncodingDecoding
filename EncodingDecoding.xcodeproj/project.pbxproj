@@ -12,6 +12,8 @@
 		FD1FAFDF20E4B3C800FCCC49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD1FAFDD20E4B3C800FCCC49 /* Main.storyboard */; };
 		FD1FAFE120E4B3C900FCCC49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD1FAFE020E4B3C900FCCC49 /* Assets.xcassets */; };
 		FD1FAFE420E4B3C900FCCC49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD1FAFE220E4B3C900FCCC49 /* LaunchScreen.storyboard */; };
+		FD1FAFEC20E4B47500FCCC49 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1FAFEB20E4B47500FCCC49 /* Landmark.swift */; };
+		FD1FAFEE20E4C97600FCCC49 /* OldDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1FAFED20E4C97600FCCC49 /* OldDataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		FD1FAFE020E4B3C900FCCC49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD1FAFE320E4B3C900FCCC49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD1FAFE520E4B3C900FCCC49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD1FAFEB20E4B47500FCCC49 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		FD1FAFED20E4C97600FCCC49 /* OldDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OldDataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				FD1FAFD920E4B3C800FCCC49 /* AppDelegate.swift */,
+				FD1FAFED20E4C97600FCCC49 /* OldDataModel.swift */,
 				FD1FAFDB20E4B3C800FCCC49 /* ViewController.swift */,
+				FD1FAFEB20E4B47500FCCC49 /* Landmark.swift */,
 				FD1FAFDD20E4B3C800FCCC49 /* Main.storyboard */,
 				FD1FAFE020E4B3C900FCCC49 /* Assets.xcassets */,
 				FD1FAFE220E4B3C900FCCC49 /* LaunchScreen.storyboard */,
@@ -137,6 +143,8 @@
 			files = (
 				FD1FAFDC20E4B3C800FCCC49 /* ViewController.swift in Sources */,
 				FD1FAFDA20E4B3C800FCCC49 /* AppDelegate.swift in Sources */,
+				FD1FAFEC20E4B47500FCCC49 /* Landmark.swift in Sources */,
+				FD1FAFEE20E4C97600FCCC49 /* OldDataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
